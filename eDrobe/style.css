@@ -1,0 +1,15 @@
+ body{
+    background-color: rgb(233, 230, 193);
+    margin: 0%;
+    
+ }
+ #taskbar{
+   display: block;
+   background-color: rgb(182, 121, 41);
+   margin: 0px;
+   padding: 0px;
+   height: 49;   
+ }
+ img{
+   display: inline;
+ }
