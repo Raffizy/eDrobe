@@ -13,3 +13,7 @@
  img{
    display: inline;
  }
+ button{
+    display: inline;
+    background-color:rgba(169, 112, 48, 0.732)
+ }
