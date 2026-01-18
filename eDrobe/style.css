@@ -1,19 +1,22 @@
- body{
+body{
     background-color: rgb(233, 230, 193);
-    margin: 0%;
-    
+    margin: 0%;  
  }
- #taskbar{
-   display: block;
-   background-color: rgb(182, 121, 41);
-   margin: 0px;
-   padding: 0px;
-   height: 49;   
- }
- img{
-   display: inline;
- }
- button{
-    display: inline;
-    background-color:rgba(169, 112, 48, 0.732)
- }
+#taskbar {
+    background-color: rgb(168, 120, 15);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+}
+.buttons button{
+    background-color: rgba(169, 113, 48, 0);
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+button:hover  {
+    background-color: rgb(200, 197, 160);
+}
